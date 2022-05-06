@@ -1,0 +1,26 @@
+* {margin: 0; padding: 0;}
+#wrap {text-align: center;}
+#header {height: 50px; line-height: 50px; background: #ead5ee;}
+#content {height: 800px; background: #ffe1e4;}
+#footer {height: 50px; line-height: 50px; background: #d6ebfd;}
+
+/* reset */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {margin: 0; padding: 0;}
+
+/* font reset */
+body, input, textarea, select, button, table, a {
+    font-family:'Nanum Gothic', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; color: #222; font-size: 20px; line-height: 1.5; text-decoration: none;}
+
+/* style the list of sites*/
+.sites {position: relative; padding-top: 100px;}
+.sites li {overflow: hidden; font-size: 12px; }
+.sites li strong {float: left; padding: 7px 2px 7px 2px; margin: 13px 0 10px 10px; background-color: #d6ebfd; border-radius: 10px; line-height: 100%; border:1.5px solid #ffffff;}
+.sites li span {float: right; padding: 1px 2px 1px 2px; background-color: #d6ebfd; border-radius: 10px; line-height: 100%; border:1.5px solid #ffffff;}
+.sites li span.real {margin: 10px 10px 10px 0;}
+.sites li span.git {margin: 10px 15px 10px 0;}
+
+
+/* style the list of effects*/
+.effects {text-align: center; padding-top: 100px;}
+
+/*위, 오, 아래, 왼*/
