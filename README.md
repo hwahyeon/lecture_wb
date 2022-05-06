@@ -7,4 +7,4 @@ WEBSTORYBOY에서 제공하는 강좌들을 듣고 직접 실습한 결과물을
 · JavaScript를 통한 Mouse / Slider / Parallax Effect 숙달<br>
 
 ## 목차
-[시작하기](https://hwahyeon.github.io/lecture_wb/)
+[결과물 한 눈에 보기](https://hwahyeon.github.io/lecture_wb/)
