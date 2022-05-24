@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout01</title>
+    <style>
+        /* 시멘틱태그는 익스8에서는 지원이 안됨.
+        #wrap {width: 1000px; margin: 0 auto;}
+        .header {width: 1000px; height: 100px; background: #2e7d32;}
+        .nav {width: 1000px; height: 100px; background: #388e3c; }
+        .side {float: left; width: 300px; height: 600px; background: #43a047;}
+        .contents {float: left; width: 700px; height: 600px; background: #4caf50;}
+        .footer {clear: both; width: 1000px; height: 100px; background: #66bb6a;}*/
+        
+        body {background: #c8e6c9;}
+        #wrap {width: 1000px; height: 900px; margin: 0 auto;}
+        header {width: 1000px; height: 100px; background: #2e7d32;}
+        nav {width: 1000px; height: 100px; background: #388e3c; }
+        aside {float: left; width: 300px; height: 600px; background: #43a047;}
+        section {float: left; width: 700px; height: 600px; background: #4caf50;}
+        footer {float: left; width: 1000px; height: 100px; background: #66bb6a;}
+    </style>
+</head>
+<body>
+    <!-- div class에 이름을 주지 말고, 자체적으로 의미가 있는 것을 만들자 -> 시멘틱 태그-->
+    <!-- 과거 
+    <div id="wrap">
+        <div class="header"></div>
+        <div class="nav"></div>
+        <div class="side"></div>
+        <div class="contents"></div>
+        <div class="footer"></div>
+    </div>
+    -->
+    <div id="wrap">
+        <header></header>
+        <nav></nav>
+        <aside></aside>
+        <section></section>
+        <footer></footer>
+    </div>
+    <!-- 기본 태그는 style에서 .을 안씀.-->
+</body>
+</html>
