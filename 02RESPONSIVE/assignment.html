@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        body {background-color: #dee2e4;}
+        #wrap {width: 1200px; margin: 0 auto;}
+        .header {width: 100%; height: 100px; background-color: #b2defe;}
+        .article {height: 300px; background-color: #9dcff3;}
+        .aside {float: left; width: 34%; height: 600px; background-color: #b9cfdf;}
+        .article1 {float: left; width: 66%;height: 300px; background-color: #82898d;}
+        .article2 {float: left; width: 66%;height: 300px; background-color: #81a1b8;}
+        .article3 {clear:both; float:left; width: 33%; height: 300px; background-color: #474c50;}
+        .article4 {float:left; width: 34%; height: 300px; background-color: #c4d6e2;}
+        .article5 {float:left; width: 33%; height: 300px; background-color: #474c50;}
+        .article6 {overflow: hidden; clear:both; height: 230px; background-color: #9dcff3; padding: 5%;}
+        .article6 > div {width: 23%; margin: 1%; height: 200px; background-color: #ff9800; float: left; border-radius: 5px;}
+        .footer {clear:both; height: 100px; background-color: #b2defe;}
+
+
+        /* 화면 넓이 0 - 1200px */
+        @media (max-width: 1220px) {
+            #wrap {width: 100%;}
+            .article3 {width: 50%;}
+            .article4 {width: 50%;}
+            .article5 {display: none;}
+            .article6 > div {width: 31%;}
+            .article6 > div:nth-child(4) {display:none}
+        }
+
+        /* 화면 넓이 0 - 768px */
+        @media (max-width: 768px) {
+            .article3 {width: 100%; height: 250px;}
+            .article4 {width: 100%; height: 250px;}
+            .article6 {padding: 10%;}
+            .article6 > div {width: 31%;}
+        }
+
+        /* 화면 넓이 0 - 480px */
+        @media (max-width: 480px) {
+            .aside {width: 100%; height: 150px;}
+            .article1 {width: 100%; height: 150px;}
+            .article2 {width: 100%; height: 150px;}
+            .article6 {height: 400px;}
+            .article6 > div {float: none; height: 100px; width: 98%;}
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header class="header"></header>
+        <article class="article"></article>
+        <aside class="aside"></aside>
+        <section class="article1"></section>
+        <section class="article2"></section>
+        <section class="article3"></section>
+        <section class="article4"></section>
+        <section class="article5"></section>
+        <section class="article6">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
